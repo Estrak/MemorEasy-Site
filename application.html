@@ -4,34 +4,63 @@
     <meta charset="utf-8">
     <title>MemorEasy - Application</title>
     <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style-app.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+          <img  class="navbar-toggler-icon" src="img/toggle.png" alt="toggle">
       </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="Logo" style="width:40px;">
+      </a>
       <div class="collapse navbar-collapse " id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="index.html">
               <button class="btn nav-btn" type="button" name="button">Présentation</button>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="application.html">
               <button class="btn" type="button" name="button">Application</button>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="gesp.html">
               <button class="btn" type="button" name="button">Gestion de projet</button>
             </a>
           </li>
         </ul>
       </div>
     </nav>
-    
+
+    <section class="main">
+      <article class="bloc --column">
+        <h1 class="bloc__title --light" >Application MemorEasy</h1>
+        <p class="bloc__text --light">L'application MemorEasy a été développé avec le framework React Native permettant ainsi au utilisateur iOS et Android d'en bénéficier. La plateforme de développement Gihub nous a aussi été fort utile et à permit de regrouper / fusionner chacune de nos partie.</p>
+        <div class="bloc__content --row ">
+          <img src="img/reactnativelogo.png" alt="react native" width="30%">
+          <img src="img/githublogo.png" alt="github" width="30%">
+        </div>
+      </article>
+
+      <article class="bloc --row side--pink-bck">
+        <div class="bloc__side-container">
+          <div class="bloc__content">
+            <h1 class="bloc__title --dark" >Maquettage</h1>
+            <p class="bloc__text --dark">Le maquettage de l'application a été effectué en ligne sur la plateforme Figma qui permet l'édition de maquette à plusieurs simultatément.</p>
+          </div>
+        </div>
+        <div class="bloc__side-container">
+          <div class="bloc__content ">
+            <img src="img/figma.JPG" alt="maquettage figma" width="90%">
+          </div>
+        </div>
+      </article>
+    </section>
   </body>
 </html>

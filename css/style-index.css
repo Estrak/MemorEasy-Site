@@ -10,6 +10,9 @@ body{
     flex-direction: column;
     margin-top: -60px;
 }
+.bloc:nth-child(1) > *{
+  padding-top: 70px;
+}
 .bloc:nth-child(2n+1){
   background-color: #303030;
 }
@@ -41,21 +44,21 @@ body{
   width: 350px;
   max-width: calc(100vw - 30px);
 }
-.bloc__side__title{
+.bloc__title{
   color: #eaeab4;
   width: 100%;
   text-align: center;
 }
-.bloc__side__text{
+.bloc__text{
   text-align: center;
   margin-top: 2%;
   line-height: 35px;
   font-size: 1.3rem;
-  padding: 50px;
+  padding: 10px 50px 10px 50px;
   color: #303030;
 }
 .side--pink-bck{
-  background-color: #fca6bc;
+  background-color: #fca6bc !important;
 }
 
 @media (max-width: 750px) {
@@ -81,4 +84,8 @@ body{
 
 .--column{
   flex-direction: column;
+}
+.--row{
+  flex-direction: row;
+  justify-content: space-around;
 }
