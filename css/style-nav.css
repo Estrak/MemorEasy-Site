@@ -1,0 +1,10 @@
+.nav-link .btn{
+  background-color: #303030;
+  color: #fca6bc;
+  font-weight: bold;
+  box-shadow: none !important;
+}
+.nav-link .btn:hover{
+  background-color: #505050;
+  color: #fca6bc;
+}
