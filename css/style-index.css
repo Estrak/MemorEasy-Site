@@ -8,7 +8,7 @@ body{
 .main{
     display: flex;
     flex-direction: column;
-    margin-top: calc(-65px);
+    margin-top: -60px;
 }
 .bloc:nth-child(2n+1){
   background-color: #303030;
