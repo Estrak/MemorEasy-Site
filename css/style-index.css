@@ -63,6 +63,12 @@ body{
 .plan-vert:hover{
   background-color: #4CA64C!important;
 }
+.btn-pink{
+  padding: 5px;
+  border: none;
+  background: #fca6bc !important;
+  font-weight: bold;
+}
 
 @media (max-width: 750px) {
   .bloc{
