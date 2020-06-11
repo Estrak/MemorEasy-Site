@@ -9,7 +9,7 @@
   color: #fca6bc;
 }
 
-.navbar{
-  background-color: rgba(0, 0, 0, 0);
+body .navbar{
+  background-color: #231f20;
   box-shadow: 0 0 4px #000;
 }
