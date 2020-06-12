@@ -3,3 +3,10 @@
   margin-top: 11%;
   margin-left: -0.5%;
 }
+
+@media (max-width: 750px) {
+.bloc__content__superpo{
+  margin-top: 35%;
+  width: 80%;
+}
+}

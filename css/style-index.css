@@ -64,10 +64,15 @@ body{
   background-color: #4CA64C!important;
 }
 .btn-pink{
-  padding: 5px;
-  border: none;
-  background: #fca6bc !important;
-  font-weight: bold;
+  margin: 5px !important;
+  padding: 10px !important;
+  border: none !important;
+  background-color: #eaeab4 !important;
+  font-weight: bold !important;
+}
+.btn-pink:hover{
+  background-color: #fca6bc !important;
+  color: #303030 !important;
 }
 
 @media (max-width: 750px) {
@@ -91,6 +96,10 @@ footer{
 }
 .--dark{
   color: #303030;
+}
+.--bck-dark{
+  background-color: #303030 !important;
+  color: #eaeab4 !important;
 }
 .--column{
   flex-direction: column;

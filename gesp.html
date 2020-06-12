@@ -5,6 +5,7 @@
     <title>MemorEasy - Gestion de projet</title>
     <link rel="stylesheet" href="css/style-index.css">
     <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="css/style-gesp.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -28,20 +29,78 @@
     </nav>
 
     <section class="main">
-      <div class="bloc">
-        <div class="bloc__side-container side--pink-bk">
-          <div class="bloc__content">
-            <h1 class="bloc__title">Gestion de projet</h1>
-            <p class="bloc__text --light">Nous sommes des élèves ingénieurs à l'École Nationale Supérieure de Cognitique (ENSC) à Talence.
-              Notre tuteur, M. Pierre-Alexandre FAVIER, est à l'origine de ce projet et il nous conseille pour la bonne réalisation de ce dernier.</p>
-            <p class="bloc__text --light">Nous avions tous le même niveau de responsabilité et les tâches à executer étaient attribué lors de réunion toutes les une à deux semaines.</p>
+
+      <article id="lequipe" class="bloc --row">
+        <div class="bloc__content">
+          <h1 class="bloc__title">L'Equipe</h1>
+          <p class="bloc__text">
+            Nous sommes un groupe d’élèves de l’Ecole Nationale Supérieure de Cognitique (ENSC) de Bordeaux, et nous avons travaillé sur ce projet relatif à la mémoire. Notre tuteur, Pierre-Alexandre FAVIER est à l’origine de ce projet, et nous a suivi pendant toute la réalisation de ce dernier.
+          </p>
+          <p class="bloc__text">
+            Notre équipe est composée de quatre membres : Romain BONNEFON, Paul LORGUE, Alexandre PINZI et Enora THOMAS. En raison de notre faible nombre, nous avons fait le choix d’utiliser une hiérarchie horizontale, ainsi nous n’avons pas de chef de projet et nous travaillons ensemble sur toutes les tâches.
+          </p>
+        </div>
+      </article>
+
+      <article id="planning" class="bloc --row">
+        <div class="bloc__content">
+          <h1 class="bloc__title">Le Planning</h1>
+          <p class="bloc__text">
+            Pour nous organiser au mieux, nous avons fait un planning prévisionnel des principales tâches à réaliser dès le début du projet. Cependant, notre projet a changé de direction au mois de Janvier et nous avons donc dû repenser notre planning à ce moment-là.
+          </p>
+          <a href="img/planning2.JPG">
+            <img src="img/planning2.JPG" alt="planning1" width="70%">
+          </a>
+          <span>Cliquez sur l'image pour l'afficher</span>
+          
+          <a href="img/planning3.JPG">
+            <img src="img/planning3.JPG" alt="planning2" width="70%">
+          </a>
+          <span>Cliquez sur l'image pour l'afficher</span>
+
+          <p class="bloc__text">
+            Finalement, le planning réel que nous avons suivi est le suivant. Nous avions la plupart du temps sous-estimé le temps que prendrait chaque tâche et surtout le temps que nous prendraient nos nombreux autres projets, surtout dans cette période de confinement.
+            (insertion planning réel)
+          </p>
+          <a href="img/planning1.JPG">
+            <img src="img/planning1.JPG" alt="planning3" width="70%">
+          </a>
+          <span>Cliquez sur l'image pour l'afficher</span>
+
+        </div>
+      </article>
+
+      <article id="risques" class="bloc --row">
+        <div class="bloc__content">
+          <h1 class="bloc__title">Les Risques</h1>
+          <p class="bloc__text">
+            Afin de prévoir au mieux toutes le éventualités, nous avons identifié les différents risques relatifs à notre projet, et nous les avons caractérisé grâce à un indice de criticité allant de 0 (risque faible) à 16 (risque élevé).
+          </p>
+          <p class="bloc__text">
+            Il se trouve que les risques concernant les facteurs humains se sont avérés exacts, à cause du confinement lié à l’épidémie de Covid19. En effet, nous n’avons pas pu réaliser tous les tests utilisateurs que nous souhaitions et nous n’avons ainsi pas pu tester la pertinence de certains détails
+          </p>
+          <img src="img/risque.JPG" alt="risque roue" width="50%">
+        </div>
+      </article>
+
+      <article id="comstockoutils" class="bloc --row">
+        <div class="bloc__content">
+          <h1 class="bloc__title">Stockage, communication & outils</h1>
+          <p class="bloc__text">
+            Nous avons utilisé notre espace de stockage offert par l’école sur Google Drive pour organiser tous nos documents et garder une trace de tous nos travaux. Pour produire notre application et ce site, nous avons en revanche utilisé GitHub avec différentes branches pour nos différentes parties de l’application.
+          </p>
+          <p class="bloc__text">
+            En ce qui concerne la communication au sein de notre équipe, nous avons créé une conversation Messenger dédiée au projet, sur laquelle nous nous rappelions les différentes tâches et deadlines, mais notre moyen de communication reste les réunions hebdomadaires pendant lesquelles nous faisions le points sur les travaux effectués et à venir.
+          </p>
+          <div class="bloc__content --row">
+            <img src="img/drive.png" alt="logo" width="10%">
+            <img src="img/discord.png" alt="logo" width="10%">
+            <img src="img/messenger.png" alt="logo" width="10%">
+            <img src="img/githublogo.png" alt="logo" width="10%">
           </div>
         </div>
-        <div class="bloc__side-container">
+      </article>
 
-        </div>
-
-      </div>
     </section>
 
     <script type="text/javascript" src="lib/js/jquery-3.4.0.js"></script>
